@@ -1,12 +1,5 @@
-function sum(a:number,b:number):number {
-    return a + b;
+function greet(firstName: string) {
+    console.log("Hello" + firstName);
 }
 
-function runAfter1S(fn:() => void){
-    setTimeout(fn,1000);
-  }
-  
-  runAfter1S(function() {
-    console.log("hi there");
-    return 1;
-  })
+greet("harkirat");
